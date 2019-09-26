@@ -1,0 +1,200 @@
+p
+{
+  text-indent:40px;
+}
+.nav-link
+{
+  font-size: 18px;
+}
+#navbarNav > ul > li.nav-item.dropdown.mx-4.show > div
+{
+  text-align: center;
+}
+.carousel-item
+{
+height: 100vh;
+object-fit:cover;
+}
+
+#titles
+{
+  padding-bottom:10px;
+  font-size: 70px;
+  text-align: left;
+  border-bottom:2px solid #24ADF3;
+}
+
+#titles-2
+{
+  padding-bottom:50px;
+  font-size: 50px;
+}
+
+
+.Gümrük-H
+{
+  margin-top:150px;
+}
+
+#Hakkımızda,#Vizyonumuz,#Misyonumuz,#Kalite-Politikamız,#İthalat,#İhracat,#Gümrük-Müşavirliği,#Sigorta,#FA-Karnesi
+{
+  padding-top:58px;
+}
+
+#row
+{
+  padding-top:90px;
+  padding-bottom:100px;
+}
+
+.Kurumsal img
+{
+ width: 490px;
+-webkit-box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+}
+
+
+.Hizmetlerimiz img
+{
+  width: 490px;
+-webkit-box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+}
+
+.footer
+{
+  background-color: #343A40;
+  color:floralwhite;
+  padding-top:20px;
+  padding-bottom:20px; 
+}
+
+#tel
+{
+  font-size: 30px;
+  color:green;
+  margin-top:30px;
+  margin-bottom: 10px;
+}
+
+#tel:hover
+{
+  font-size: 40px;
+  color:#70db70;
+  margin-top:30px;
+  transition:0.1s;
+}
+
+#mail
+{
+  font-size: 30px;
+  color:#ffcc00;
+  margin-top:30px;
+  margin-bottom: 10px;
+}
+
+#mail:hover
+{
+  font-size: 40px;
+  color:#ffdb4d;
+  margin-top:30px;
+  transition:0.1s;
+}
+
+#tw
+{
+  font-size: 30px;
+  color:#1DA1F2;
+  margin-top:30px;
+}
+
+#tw:hover
+{
+  font-size: 40px;
+  color:#86cdf9;
+  margin-top:30px;
+  transition:0.1s;
+}
+
+#instagram
+{
+  font-size: 30px;
+  color:#D9163A;
+  margin-top:30px;
+}
+
+#instagram:hover
+{
+  font-size: 40px;
+  color:#f2738a;
+  margin-top:30px;
+  transition: 0.1s;
+}
+
+#adres
+{
+  font-size: 30px;
+  color:#DF2525;
+  margin-top:30px;
+}
+
+#adres:hover
+{
+  font-size: 40px;
+  color:#ff4d4d;
+  margin-top:30px;
+  transition:0.1s;
+}
+
+@media screen and (max-width:992px)
+{
+  .carousel-item
+  {
+    height:auto;
+    object-fit:contain;
+  }
+  .nav-link
+  {
+  font-size: 18px;
+  text-align: center;
+  }
+  #navbar1
+  {
+   position: relative;
+  }
+  #titles
+  {
+    padding-bottom:30px;
+    font-size:35px;
+    text-align:center;
+  }
+  
+  #titles-2
+  {
+    padding-bottom:25px;
+    font-size:25px;
+  }
+
+  
+    #row
+  {
+    padding-bottom:10px;
+    padding-top:30px;
+  }
+
+  .Kurumsal img
+  {
+    margin-top:30px;
+    margin-bottom:30px;
+  }
+
+  .Hizmetlerimiz img
+  {
+    margin-top:30px;
+    margin-bottom:30px; 
+  }
+
+}
