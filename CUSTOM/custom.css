@@ -1,0 +1,206 @@
+/*Author:Güngör Öztürk*/ 
+p
+{
+  text-indent:40px;
+  font-family: 'Open Sans', sans-serif;
+  color:#4B4B4B;
+}
+.nav-link
+{
+  font-size: 18px;
+}
+#navbarNav > ul > li.nav-item.dropdown.mx-4.show > div
+{
+  text-align: center;
+  background-color: #343A40;
+}
+#navbarNav > ul > li.nav-item.dropdown.mx-4.show > div :hover
+{
+  background-color: #343A40;
+}
+#navbarNav > ul > li.nav-item.dropdown.mx-4.show > div > a
+{
+  color: #fff;
+}
+.carousel-item
+{
+height: 100vh;
+object-fit:cover;
+}
+/*Author:Güngör Öztürk*/ 
+#titles
+{
+  padding-bottom:10px;
+  font-size: 60px;
+  text-align: left;
+  border-bottom:2px solid #24ADF3;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 100;
+  color:#4B4B4B;
+}
+#titles-2
+{
+  padding-bottom:50px;
+  font-size: 50px;
+  color:#4B4B4B;
+}
+/*Author:Güngör Öztürk*/ 
+.Gümrük-H
+{
+  margin-top:150px;
+}
+.slider-text
+{
+  font-family: 'Courgette', cursive;
+  color: rgb(39, 39, 39);
+  font-size: 60px;
+  margin-bottom: 330px;
+}
+#Hakkımızda,#Vizyonumuz,#Misyonumuz,#Kalite-Politikamız,#İthalat,#İhracat,#Gümrük-Müşavirliği,#FA-Karnesi
+{
+  padding-top:58px;
+}
+
+#row
+{
+  padding-top:90px;
+  padding-bottom:100px;
+}
+.Kurumsal img
+{
+ width: 490px;
+ max-height:300px;
+-webkit-box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+}
+/*Author:Güngör Öztürk*/ 
+.Hizmetlerimiz img
+{
+  width: 490px;
+-webkit-box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 7px 2px rgba(0,0,0,0.75);
+}
+.footer{
+  background-color: #2D2D2D;
+  color:#fff;
+}
+#under {
+  background-color: #242424;
+  color: #ffff;
+}
+#name {
+  font-family: "Yellowtail", cursive;
+  font-size: 25px;
+}
+#address{
+  font-size: 30px;
+  color: #b81919;
+}
+#address:hover{
+  transition: 0.3s;
+  color: #e67e7e;
+}
+#mail{
+  font-size: 30px;
+  color: #eec925;
+}
+#phone{
+  font-size: 30px;
+  color: #1c9125;
+}
+#in{
+  font-size: 30px;
+  color: #0073B0;
+}
+/*Author:Güngör Öztürk*/ 
+#in:hover{
+  color: #94a4c4;
+  transition: 0.3s;
+}
+#tw{
+  font-size: 30px;
+  color: #00ACED;
+}
+#tw:hover{
+  color:#95d5ed;
+  transition: 0.3s;
+}
+#instagram{
+  font-size: 30px;
+  color: #E83741;
+}
+#instagram:hover{
+  transition: 0.3s;
+  color: #ed7b82;
+}
+/*Author:Güngör Öztürk*/ 
+@media screen and (max-width:992px)
+{
+  .carousel-item
+  {
+    height:auto;
+    object-fit:contain;
+  }
+  .nav-link
+  {
+  font-size: 18px;
+  text-align: center;
+  }
+  #navbar1
+  {
+   position: relative;
+  }
+  #titles
+  {
+    padding-bottom:30px;
+    font-size:35px;
+    text-align:center;
+  }
+  #titles-2
+  {
+    padding-bottom:25px;
+    font-size:25px;
+  }
+  /*Author:Güngör Öztürk*/ 
+    #row
+  {
+    padding-bottom:10px;
+    padding-top:30px;
+  }
+
+  .Kurumsal img
+  {
+    margin-top:30px;
+    margin-bottom:30px;
+  }
+
+  .Hizmetlerimiz img
+  {
+    margin-top:30px;
+    margin-bottom:30px; 
+  }
+
+ .slider-text
+ {
+  font-family: 'Courgette', cursive;
+  text-align: left;
+  color: rgb(39, 39, 39);
+  font-size: 25px;
+  margin-bottom:70px;
+ }
+
+}
+
+@media screen and (width:768px)
+{
+  .slider-text
+  {
+   font-family: 'Courgette', cursive;
+   text-align: left;
+   color: rgb(39, 39, 39);
+   font-size: 40px;
+   margin-bottom:250px;
+  }
+}
