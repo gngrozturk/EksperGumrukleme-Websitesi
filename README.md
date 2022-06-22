@@ -1,4 +1,4 @@
-# EksperGumrukleme-Websitesi
+# EksperGumrukleme-Website
 
 It's a responsive website that I developed for Eksper Gümrükleme by using HTML5, CSS3 and Bootstrap.
 
